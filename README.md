@@ -1,0 +1,3 @@
+# Tailwind CSS Flexbox Fractional Width Issue
+
+This repository demonstrates an unexpected behavior when using flexbox and fractional widths in Tailwind CSS. The second div in a flex container doesn't occupy the remaining width as expected.  This is particularly subtle when working with dynamic content, as the extra space will often go unnoticed in development until later in the production lifecycle.  The solution shows how to correctly achieve the desired layout using `flex-grow`.
